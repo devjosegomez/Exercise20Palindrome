@@ -11,6 +11,12 @@ public class PalindromeApp {
 		System.out.println(StringApplications.isPalindrome(cadPalindrome2));
 		System.out.println(StringApplications.isPalindrome(cadPalindrome3));
 		
+		// Palindrome with Stack
+		System.out.println("--- Palindrome with Stack ---");
+		System.out.println(StringApplications.isPalondromeStack(cadPalindrome1));
+		System.out.println(StringApplications.isPalondromeStack(cadPalindrome2));
+		System.out.println(StringApplications.isPalondromeStack(cadPalindrome3));
+		
 	}
 
 }
